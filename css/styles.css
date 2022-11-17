@@ -1,0 +1,141 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+#title{
+    background-color: #8fdbf2;
+}
+
+h1{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding-left: 0rem;
+    padding-top: 18px;
+}
+.nav-link{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(57, 97, 207, 0.794);
+    font-size:  18px;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.titleImage{
+    transform: rotate(10deg);
+    z-index: 0;
+    position: absolute;
+    width: 55%;
+}
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .titleImage{
+        position:static;
+        transform: rotate(0);
+    }
+}
+#features{
+    padding: 7% 15%;
+    background-color: rgba(86, 29, 151, 0.479);
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+h2{
+    font-family: "Montserrat";
+    font-size: 1.5;
+    font-weight:bold;
+}
+p{
+    color:rgba(172, 188, 197, 0.945);
+}
+.icon{
+    color:rgba(255, 166, 0, 0.815);
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#8fdbf2;
+}
+
+/*Testimonial Section*/
+#testimonials{
+    padding:7% 15%;
+    text-align: center;
+    background-color: #7fdbda;
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius: 50%;
+    margin:10px;
+}
+#press{
+    background-color: #7fdbda;
+    text-align: center;
+
+}
+.press-logo{
+    width:10%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+
+
+#pricing{
+    padding: 100px;
+}
+.pop{
+    border-radius: 4px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 3px 10px;
+    position: absolute;
+    right: 19px;
+    top: -14px;
+    display: block;
+    background-color: rgba(255, 196, 0, 0.884);
+    box-sizing: border-box;
+}
+
+#cta{
+    background-color: #00bcd4;
+    color: white;
+    padding:7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#footer{
+    padding:7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin:20px 10px;
+}
